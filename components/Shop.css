@@ -1,0 +1,26 @@
+/* Shop.css */
+.product-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between products */
+}
+
+.product-item {
+    border: 1px solid #ccc; /* Border around product */
+    padding: 15px; /* Padding inside product */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.add-to-cart {
+    margin-top: 10px; /* Space above button */
+    padding: 10px 15px;
+    color: #fff; /* Text color */
+    background-color: #28a745; /* Button color */
+    border-radius: 5px; /* Rounded corners */
+    border: none; /* Remove default border */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.add-to-cart:hover {
+    background-color: #218838; /* Darker shade on hover */
+}

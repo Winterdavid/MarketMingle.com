@@ -1,0 +1,65 @@
+/* Navbar.css */
+.navbar {
+    width: calc(100% - 4cm); /* Full width minus 2cm on each side */
+    margin-left: 2cm; /* Align the navbar to the left space */
+    margin-right: 2cm; /* Align the navbar to the right space */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically in the navbar */
+    padding: 10px 0; /* Add some vertical padding */
+    background-color: #f8f8f8; /* Background color for navbar */
+    position: fixed; /* Fix the navbar at the top */
+    top: 0; /* Align navbar to the top */
+    z-index: 1000; /* Ensure the navbar stays on top of other elements */
+}
+
+.left {
+    display: flex; /* Flexbox for logo and title */
+    align-items: center; /* Center items vertically */
+}
+
+.left img {
+    height: 50px; /* Set height for logo */
+    margin-right: 10px; /* Space between logo and title */
+}
+
+.title {
+    font-size: 24px; /* Adjust font size for title */
+    font-weight: bold; /* Bold font for title */
+}
+
+/* Centering Links */
+.center {
+    display: flex; /* Use flexbox to layout links */
+    justify-content: center; /* Center the links */
+    flex-grow: 1; /* Allow this section to grow */
+}
+
+.center a {
+    margin: 0 15px; /* Spacing between links */
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Link color */
+}
+/* Navbar.css */
+.nav-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-left: 10px; /* Space between links and buttons */
+    color: #fff; /* Text color */
+    background-color: #007bff; /* Button color */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Optional: Add some body margin to prevent content from hiding behind the fixed navbar */
+body {
+    margin-top: 60px; /* Adjust as necessary based on navbar height */
+}

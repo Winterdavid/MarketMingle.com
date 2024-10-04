@@ -1,0 +1,15 @@
+/* styles.css */
+body {
+    margin: 0; /* Reset default margin */
+    padding: 0; /* Reset default padding */
+    padding-left: 2cm; /* 2 cm space from the left */
+    padding-right: 2cm; /* 2 cm space from the right */
+    margin-top: 60px; /* Space below the fixed navbar */
+    box-sizing: border-box; /* Include padding in width calculations */
+}
+
+/* Optional: You might want to set a maximum width for your content */
+.container {
+    max-width: calc(100% - 4cm); /* Account for left and right padding */
+    margin: 0 auto; /* Center the container */
+}
